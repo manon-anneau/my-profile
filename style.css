@@ -1,0 +1,121 @@
+/*Colors and fonts*/
+
+body {
+background-color:#FFF0EA;
+color: #575F7D;
+font-family: 'Lora', serif; 
+font-size: 16px;
+font-weight: lighter;
+}
+
+h1, h2, a {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	font-style: normal;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #575F7D;
+}
+
+h2{
+	font-size: 18px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #15B2AA;
+}
+
+
+a{
+	font-size: 15px;
+	text-decoration: none;
+	color: #EF6F6C;
+	transition: color 0.3s ease;
+	font-weight:bold;
+}
+a:hover{
+	color: #575F7D;
+}
+
+ul{
+	color: rgb(121,186,193);
+	padding-left: 0px;
+}
+
+
+/*Custom design with class*/ 
+
+.container {
+	width:900px;
+	margin: 30px auto; 
+}
+
+@media (max-width: 870px) {
+	.container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 550px) {
+	.container {
+    width: 400px;
+  }
+}
+
+.card-white{
+	background-color: white;
+	padding: 45px;
+	margin: 45px 0px;  
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle {  
+	border-radius:50%;
+	width: 250px;
+}
+
+#btn-pink{
+	background-color: #EF6F6C;
+	color: white;
+	padding: 10px 20px;
+	margin: 10px auto;
+	border-radius: 4px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+#btn-pink:hover{
+	background-color: #575F7D;
+	color: white;
+}
+
+.box-shadowed{
+	box-shadow: 0px 10px 30px rgba(239, 111, 108,0.2);   
+}
+
+.list-inline {
+	background: #FFF0EA; 
+	list-style: none;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+}
+
+#introductipn-part2 {
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+
